@@ -48,7 +48,7 @@ export default function EscanerScreen() {
 
     if (reserva.usado) {
       Alert.alert(
-        "⚠️ ALERTA: Boleto Usado",
+        " ⚠️ALERTA: Boleto Usado",
         `Este boleto (${data}) ya ha sido ingresado previamente.`,
         [{ text: "Aceptar", onPress: () => setEscaneado(false) }],
       );
